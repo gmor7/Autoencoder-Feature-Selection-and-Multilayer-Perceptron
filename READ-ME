@@ -1,0 +1,12 @@
+Cyber threat detection application (Python)
+
+This is a predictive model (machine learning classifier) capable of distinguising between "intrusive" traffic (threats, attacks) and "good" (normal) traffic.
+
+The app:
+
+- creates additional features by taking the latent representation using autoencoders. Five different autoencoders are built and compared
+- combines these additional features with the original dataset
+- applies feature selection techniques. Three different techniques have been built and compared
+- builds ML algorithms for classification
+- evaluates the classification performance of each algo; accuracy, detection rate, false alarms, type II errors etc.
+- achieves 97.84% accuracy using a denoising autoencoder, ExtraTrees and MLP
