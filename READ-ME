@@ -4,7 +4,7 @@ This is a predictive model (machine learning classifier) capable of distinguisin
 
 The app:
 
-- creates additional features by taking the latent representation using autoencoders. Five different autoencoders are built and compared
+- creates additional features by taking the latent representation of an autoencoder. Five different autoencoders are built and compared
 - combines these additional features with the original dataset
 - applies feature selection techniques. Three different techniques have been built and compared
 - builds ML algorithms for classification
